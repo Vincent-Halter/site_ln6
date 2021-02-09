@@ -25,5 +25,7 @@ p.card-text {
 .container {
 	padding-top: 5em;
 }
-/* 
- */
+
+.is-hidden {
+	display: none !important;
+}

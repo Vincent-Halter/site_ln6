@@ -30,7 +30,7 @@
                     $profilimage = $result[$i]['ProfilPick'];
                     ?>
                     <div class="col-md-4">
-                        <div class="card" style="margin-bottom:16px;">
+                        <div class="card" style="margin-bottom:16px;" data-type="<?=$categories?>">
                             <div class="card-block">
                                 <div class="card-body">
                                     <div class="row">
@@ -140,21 +140,23 @@
 
 
             function btn_crea(){
-                $.ajax({
-                    type : "POST",
-                    url : 'php/script/functions.php',
-                    data : {
-                    'action' : 'crea',
-                    },
-                    success : function(data){
-                        console.log(data);
-                        if(data == 'true'){
-                            console.log('oui');
-                        }else{
-                            console.log('non');
-                        }   
-                    }
-                })
+                $('.card[data-type="Créa"]').toggleClass('is-hidden');
+                $('.button').toggleClass('active');
+                // $.ajax({
+                //     type : "POST",
+                //     url : 'php/script/functions.php',
+                //     data : {
+                //     'action' : 'crea',
+                //     },
+                //     success : function(data){
+                //         console.log(data);
+                //         if(data == 'true'){
+                //             console.log('oui');
+                //         }else{
+                //             console.log('non');
+                //         }   
+                //     }
+                // })
             }
 
             function btn_tech(){

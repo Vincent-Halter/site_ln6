@@ -13,8 +13,23 @@ if(isset($_GET['id'])){
     $facebook = $rqt[0]['Link_Github'];
     $instagram = $rqt[0]['Link_Linkedin'];
     $profilimage = $rqt[0]['ProfilPick'];
+
+    if( !$rqt[0]['Background'] ) {
+        $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80'
+    } else {
+        $background = !$rqt[0]['Background']
+    }
+    //$rqt[0]['ProfilPick'];
     // $video = $rqt[0]['Video'];
 ?>
+<style>
+    body {
+        background: url('<?= $background?>');
+        background-position: top center;
+        background-size: cover;
+    }
+
+</style>
 <div class=container>
     <div class="row">
         <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:150px;height:130px;margin-right:24px;border-radius:90%">

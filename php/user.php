@@ -14,10 +14,10 @@ if(isset($_GET['id'])){
     $instagram = $rqt[0]['Link_Linkedin'];
     $profilimage = $rqt[0]['ProfilPick'];
 
-    if( !$rqt[0]['Background'] ) {
-        $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80'
+    if( !isset($rqt[0]['Background']) ) {
+        $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80';
     } else {
-        $background = !$rqt[0]['Background']
+        $background = $rqt[0]['Background'];
     }
     //$rqt[0]['ProfilPick'];
     // $video = $rqt[0]['Video'];

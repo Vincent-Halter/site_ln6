@@ -85,9 +85,34 @@ if(isset($_GET['id'])){
             </div>
         </div>
     </div>
-</div>
-</div>
-
+    <div class="card border-dark">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="..." alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body border-dark">
+                    <h5 class="card-title">projet</h5>
+                    <p class="card-text">Présentez votre projet</p>
+                    <p class="card-text"><small class="text-muted">Présenter</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card border-dark">
+        <div class="row g-0">
+            <div class="col-md-6">
+                <img src="..." alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">projet</h5>
+                    <p class="card-text border-dark">Présentez votre projet</p>
+                    <p class="card-text"><small class="text-muted">Présenter</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php
     }
     ?>

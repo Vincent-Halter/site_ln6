@@ -63,3 +63,9 @@ p.card-text {
 	background: purple;
 	color: white;
 }
+
+.btn-group-lg > .btn,
+.btn-lg {
+	padding: 0.5rem 2rem;
+	border-radius: 5.3rem;
+}

@@ -42,11 +42,22 @@ p.card-text {
 	margin-bottom: 25px;
 }
 
-.container-sm{
+.container-sm {
 	background-color: white;
 	padding: 8.5em;
 }
 
-.container{
+.container {
 	padding: 0px;
+}
+
+.card.border-dark .col-md-6 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.btn.btn-light.btn-lg.github {
+	margin-bottom: 10px;
+	background: purple;
+	color: white;
 }

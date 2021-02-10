@@ -46,20 +46,20 @@ if(isset($_GET['id'])){
     <div class="container-sm">
         <div class="row">
             <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:150px;height:130px;margin-right:24px;border-radius:90%">
-            <div class="col-6">
+            <div class="col-8">
                 <h5><?=$name?></h5>
                 <h5><?=$firstname?></h5>
                 <p><?=$description?></p>
                 <p><?=$tag?></p>
             </div>
-            <div class="col-1">
+            <div class="col-2">
             <?php
                 if($categories == 'Tech'){
-                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-lg' type='button'>GitHub (Facebook) </a>";
-                    echo "<a href='https://www.instagram.com/$instagram' class='btn btn-light btn-lg' type='button'>Linkedin (Instagram) </a>";
+                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-lg github' type='button'><i class='fab fa-github'></i> GitHub</a>";
+                    echo "<a href='https://www.instagram.com/$instagram' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
                 }else{
-                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-lg' type='button'>Behance (Facebook) </a>";
-                    echo "<a href='https://www.instagram.com/$instagram' class='btn btn-light btn-lg' type='button'>Linkedin (Instagram) </a>";
+                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-primary' type='button' style='margin-bottom:10px;'>Behance</a>";
+                    echo "<a href='https://www.instagram.com/$instagram' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
                 }
                 ?>
             </div>

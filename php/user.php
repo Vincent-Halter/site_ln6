@@ -58,7 +58,7 @@ if(isset($_GET['id'])){
                     echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-lg github' type='button'><i class='fab fa-github'></i> GitHub</a>";
                     echo "<a href='https://www.instagram.com/$instagram' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
                 }else{
-                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-primary' type='button' style='margin-bottom:10px;'>Behance</a>";
+                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-primary btn-lg' type='button' style='margin-bottom:10px;'><i class='fab fa-behance'></i> Behance</a>";
                     echo "<a href='https://www.instagram.com/$instagram' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
                 }
                 ?>
@@ -73,8 +73,10 @@ if(isset($_GET['id'])){
         </div>
     <?php
         if($video == null){
-            echo "<img src='img/no-photo-available.png' alt='nophoto'>";
-        }else{
+            ?>
+            <iframe width="1038" height="584" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <?php
+            }else{
             ?>
             <iframe width="1038" height="584" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <?php

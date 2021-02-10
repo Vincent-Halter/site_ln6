@@ -38,10 +38,10 @@ if(isset($_GET['id'])){
 <div class="container">
     <div class="container-sm">
         <div class="row">
-            <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:150px;height:130px;margin-right:24px;border-radius:90%">
+            <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:238px;height:202px;margin-right:8px;border-radius:90%">
             <div class="col-6">
-                <h5><?=$name?></h5>
-                <h5><?=$firstname?></h5>
+                <h3><?=$name?></h5>
+                <h3><?=$firstname?></h5>
                 <p><?=$description?></p>
                 <p><?=$tag?></p>
             </div>

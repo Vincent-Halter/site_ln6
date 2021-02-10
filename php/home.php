@@ -119,8 +119,8 @@
             </div>
         </div>
         <div class="text-center">
-            <h4 id="apropos">A propos</h4>
-            <h5>La Ligne Numérique c'est quoi ?</h5>
+            <h4 id="apropos">À propos</h4>
+            <h5>Qu'est-ce que la Ligne numérique ?</h5>
             <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin des métiers du numérique à Mulhouse. Lorem Elsass ipsum Strasbourg risus, ullamcorper ornare schpeck kougelhopf hoplageiss geïz bissame vulputate tellus in.</p>
         </div>
             <div class="container-fluid text-center">

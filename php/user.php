@@ -74,7 +74,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="..." alt="...">
+                <img src="img/no-photo-available.png" class="img-fluid" alt="...">
             </div>
             <div class="col-md-6">
                 <div class="card-body">
@@ -88,7 +88,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="..." alt="...">
+                <img src="img/no-photo-available.png" class="img-fluid" alt="...">
             </div>
             <div class="col-md-6">
                 <div class="card-body border-dark">
@@ -102,7 +102,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="..." alt="...">
+                <img src="img/no-photo-available.png" class="img-fluid" alt="...">
             </div>
             <div class="col-md-6">
                 <div class="card-body">

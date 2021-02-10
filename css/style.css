@@ -46,7 +46,7 @@ p.card-text {
 	background-color: white;
 	padding-left: 8.25em;
 	padding-right: 9.50em ;
-	padding-top: 25px;
+	padding-top: 5em;
 }
 
 .container {
@@ -62,4 +62,10 @@ p.card-text {
 	margin-bottom: 10px;
 	background: purple;
 	color: white;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+	padding:0.5rem 2rem;
+	border-radius: 5.3rem;
+
 }

@@ -6,14 +6,16 @@
     <div class="container-lg" style="margin-top:100px">
         <div class="text-center">
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">
-            <h4>Accroche ou Slogan de la promotion</h4>
+            <h4>Accroche ou Slogan de la promotion</h4><br></br>
 
-            <iframe width="100%" height="1080" src="https://www.youtube.com/embed/COb6AqmggRU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="100%" height="1080" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
+            </div>
 
-            <h4 id="promotion20-21">Promotion 2020/2021</h4>
+            <h4 id="promotion20-21">Promotion n°6 <br> 2020/2021</h4><br></br>
             <div class="d-grid gap-2 d-md-block" style="margin-bottom:25px;">
-                <button Onclick="btn_crea()" id ="Crea" class="btn btn-primary" type="button">Créa</button>
-                <button Onclick="btn_tech()" id="Tech" class="btn btn-primary" type="button">Tech</button>
+                <button Onclick="btn_crea()" id ="Crea" class="btn btn-primary btn-lg" type="button">Créa</button>
+                <button Onclick="btn_tech()" id="Tech" class="btn btn-primary btn-lg" type="button">Tech</button>
             </div>
         </div>
         <div class="container">

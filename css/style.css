@@ -41,3 +41,12 @@ p.card-text {
 .card.border-dark {
 	margin-bottom: 25px;
 }
+
+.container-sm{
+	background-color: white;
+	padding: 8.5em;
+}
+
+.container{
+	padding: 0px;
+}

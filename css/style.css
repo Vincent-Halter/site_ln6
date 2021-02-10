@@ -37,3 +37,7 @@ p.card-text {
 	right: 0;
 	bottom: 0;
 }
+
+.card.border-dark {
+	margin-bottom: 25px;
+}

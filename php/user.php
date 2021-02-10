@@ -19,14 +19,13 @@ if(isset($_GET['id'])){
     $image_projet_2 = $rqt[0]['Photo_Projet_2'];
     $projet_3 = $rqt[0]['Projet_3'];
     $image_projet_3 = $rqt[0]['Photo_Projet_3'];
+    $video = $rqt[0]['Video'];
 
     if( !isset($rqt[0]['Background']) ) {
         $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80';
     } else {
         $background = $rqt[0]['Background'];
     }
-    //$rqt[0]['ProfilPick'];
-    // $video = $rqt[0]['Video'];
 ?>
 <style>
     body {
@@ -63,16 +62,16 @@ if(isset($_GET['id'])){
                 </div>
             </div>
         </div>
+    <?php
+        if($video == null){
+            echo "<img src='img/no-photo-available.png' alt='nophoto'>";
+        }else{
+            ?>
+            <iframe width="1038" height="584" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <?php
+        }
+        ?>
     </div>
-    <!-- <?php
-        // if($video == null){
-        //     echo "<img src='img/no-photo-available.png' alt='nophoto'>";
-        // }else{
-        //     ?>
-        //     <iframe width="1038" height="584" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        //     <?php
-        // }
-        ?> -->
 <div class="container text-center">
     <h3>
         Mes Projets
@@ -80,13 +79,12 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="img/no-photo-available.png" class="img-fluid" alt="...">
+                <img src="img/profil/projets/<?=$image_projet_1?>" class="img-fluid" alt="<?=$image_projet_1?>">
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <h5 class="card-title">projet</h5>
-                    <p class="card-text">Présentez votre projet</p>
-                    <p class="card-text"><small class="text-muted">Présenter</small></p>
+                    <h4 class="card-text">Présentez votre projet</h4>
+                    <p class="card-text"><?=$projet_1?></p>
                 </div>
             </div>
         </div>
@@ -94,13 +92,12 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="img/no-photo-available.png" class="img-fluid" alt="...">
+                <img src="img/profil/projets/<?=$image_projet_2?>" class="img-fluid" alt="<?=$image_projet_2?>">
             </div>
             <div class="col-md-6">
-                <div class="card-body border-dark">
-                    <h5 class="card-title">projet</h5>
-                    <p class="card-text">Présentez votre projet</p>
-                    <p class="card-text"><small class="text-muted">Présenter</small></p>
+                <div class="card-body">
+                    <h4 class="card-text">Présentez votre projet</h4>
+                    <p class="card-text"><?=$projet_2?></p>
                 </div>
             </div>
         </div>
@@ -108,13 +105,12 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="img/no-photo-available.png" class="img-fluid" alt="...">
+                <img src="img/profil/projets/<?=$image_projet_3?>" class="img-fluid" alt="<?=$image_projet_3?>">
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <h5 class="card-title">projet</h5>
-                    <p class="card-text border-dark">Présentez votre projet</p>
-                    <p class="card-text"><small class="text-muted">Présenter</small></p>
+                    <h4 class="card-text">Présentez votre projet</h4>
+                    <p class="card-text"><?=$projet_3?></p>
                 </div>
             </div>
         </div>

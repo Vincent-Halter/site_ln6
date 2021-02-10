@@ -14,6 +14,7 @@
             <br></br>
             <h2 id="promotion20-21">Promotion n°6 <br> 2020/2021</h4><br></br>
             <div class="d-grid gap-2 d-md-block" style="margin-bottom:55px;">
+                <button Onclick="btn_tous()" id="Tous" class="btn btn-primary btn-lg" type="button">Tous</button>
                 <button Onclick="btn_crea()" id ="Crea" class="btn btn-primary btn-lg" type="button">Créa</button>
                 <button Onclick="btn_tech()" id="Tech" class="btn btn-primary btn-lg" type="button">Tech</button>
             </div>

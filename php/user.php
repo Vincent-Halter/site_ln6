@@ -13,12 +13,19 @@ if(isset($_GET['id'])){
     $facebook = $rqt[0]['Link_Github'];
     $instagram = $rqt[0]['Link_Linkedin'];
     $profilimage = $rqt[0]['ProfilPick'];
-    $projet_1 = $rqt[0]['Projet_1'];
+
     $image_projet_1 = $rqt[0]['Photo_Projet_1'];
-    $projet_2 = $rqt[0]['Projet_2'];
+    $projet_1_title = $rqt[0]['Projet_1_Titre'];
+    $projet_1 = $rqt[0]['Projet_1_Description'];
+
     $image_projet_2 = $rqt[0]['Photo_Projet_2'];
-    $projet_3 = $rqt[0]['Projet_3'];
+    $projet_2_title = $rqt[0]['Projet_2_Titre'];
+    $projet_2 = $rqt[0]['Projet_2_Description'];
+
     $image_projet_3 = $rqt[0]['Photo_Projet_3'];
+    $projet_3_title = $rqt[0]['Projet_3_Titre'];
+    $projet_3 = $rqt[0]['Projet_3_Description'];
+
     $video = $rqt[0]['Video'];
 
     if( !isset($rqt[0]['Background']) ) {
@@ -79,11 +86,11 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="img/profil/projets/<?=$image_projet_1?>" class="img-fluid" alt="<?=$image_projet_1?>">
+            <iframe width="635" height="300" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <h4 class="card-text">Présentez votre projet</h4>
+                    <h4 class="card-text"><?=$projet_1_title?></h4>
                     <p class="card-text"><?=$projet_1?></p>
                 </div>
             </div>
@@ -92,11 +99,11 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="img/profil/projets/<?=$image_projet_2?>" class="img-fluid" alt="<?=$image_projet_2?>">
+            <iframe width="635" height="300" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <h4 class="card-text">Présentez votre projet</h4>
+                <h4 class="card-text"><?=$projet_2_title?></h4>
                     <p class="card-text"><?=$projet_2?></p>
                 </div>
             </div>
@@ -105,11 +112,11 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-                <img src="img/profil/projets/<?=$image_projet_3?>" class="img-fluid" alt="<?=$image_projet_3?>">
+            <iframe width="635" height="300" src="https://www.youtube.com/embed/<?=$video?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-md-6">
                 <div class="card-body">
-                    <h4 class="card-text">Présentez votre projet</h4>
+                <h4 class="card-text"><?=$projet_3_title?></h4>
                     <p class="card-text"><?=$projet_3?></p>
                 </div>
             </div>

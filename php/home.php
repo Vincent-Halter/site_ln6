@@ -8,7 +8,7 @@
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">
             <h4>Accroche ou Slogan de la promotion</h4>
 
-          <!-- <iframe width="773" height="435" src="https://www.youtube.com/embed/COb6AqmggRU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <iframe width="100%" height="1080" src="https://www.youtube.com/embed/COb6AqmggRU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             <h4 id="promotion20-21">Promotion 2020/2021</h4>
             <div class="d-grid gap-2 d-md-block" style="margin-bottom:25px;">
@@ -33,6 +33,9 @@
                         <div class="card" style="margin-bottom:16px;" data-type="<?=$categories?>">
                             <div class="card-block">
                                 <div class="card-body">
+                                    <a href="/?page=profil&id=<?=$id?>">
+                                    <span class="link_profil"></span>
+                                    </a>
                                     <div class="row">
                                         <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:150px;height:130px;margin-right:24px;border-radius:90%">
                                         <div class="col-6">
@@ -73,34 +76,33 @@
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" style="padding:40px;">
                         <div class="carousel-item active" data-bs-interval="10000">
                             <div class="row">
-                                <img src="img/caroussel/Capture-1.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-2.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-3.png" class="d-block" style="width:33%;" alt="photos_carroussel">
+                                <img src="img/caroussel/_MG_5407.jpg" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
+                                <img src="img/caroussel/_MG_5420.jpg" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
+                                <img src="img/caroussel/_MG_5426.jpg" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="row">
-                            <img src="img/caroussel/Capture-1.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-2.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-3.png" class="d-block" style="width:33%;" alt="photos_carroussel">
+                            <img src="img/caroussel/_MG_5430.jpg" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
+                                <img src="img/caroussel/_MG_5435.jpg" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
+                                <img src="img/caroussel/_MG_5449.jpg" class="d-block" style="width:23%;height:23%" alt="photos_carroussel">
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="row">
-                            <img src="img/caroussel/Capture-1.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-2.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-3.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-
+                                <img src="img/caroussel/_MG_8516.jpg" class="d-block" style="width:23%;height:23%" alt="photos_carroussel">
+                                <img src="img/caroussel/Capture.png" class="d-block" style="width:37%;height:37%" alt="photos_carroussel">
+                                <img src="img/caroussel/rayanne.png" class="d-block" style="width:20.5%;height:20.5%" alt="photos_carroussel">
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="row">
-                            <img src="img/caroussel/Capture-1.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-2.png" class="d-block" style="width:33%;" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-3.png" class="d-block" style="width:33%;" alt="photos_carroussel">
+                            <img src="img/caroussel/rayanne2.jpg" class="d-block" style="width:23%;height:23%" alt="photos_carroussel">
+                                <img src="img/caroussel/Capture-2.png" class="d-block" style="width:35%;height:35%" alt="photos_carroussel">
+                                <img src="img/caroussel/Capture-3.png" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
                             </div>
                         </div>
                     </div>
@@ -140,42 +142,13 @@
 
 
             function btn_crea(){
-                $('.card[data-type="Créa"]').toggleClass('is-hidden');
+                $('.card[data-type="Tech"]').toggleClass('is-hidden');
                 $('.button').toggleClass('active');
-                // $.ajax({
-                //     type : "POST",
-                //     url : 'php/script/functions.php',
-                //     data : {
-                //     'action' : 'crea',
-                //     },
-                //     success : function(data){
-                //         console.log(data);
-                //         if(data == 'true'){
-                //             console.log('oui');
-                //         }else{
-                //             console.log('non');
-                //         }   
-                //     }
-                // })
             }
 
             function btn_tech(){
-                $.ajax({
-                    type : "POST",
-                    url : 'php/script/functions.php',
-                    data : {
-                    'action' : 'tech',
-                    },
-                    success : function(data){
-                        console.log(data);
-                        if(data == 'true'){
-                            console.log('oui');
-                            
-                        }else{
-                            console.log('non');
-                        }   
-                    }
-                })
+                $('.card[data-type="Créa"]').toggleClass('is-hidden');
+                $('.button').toggleClass('active');
             }
 
 

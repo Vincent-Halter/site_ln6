@@ -44,7 +44,9 @@ p.card-text {
 
 .container-sm {
 	background-color: white;
-	padding: 8.5em;
+	padding-left: 8.25em;
+	padding-right: 9.50em ;
+	padding-top: 25px;
 }
 
 .container {

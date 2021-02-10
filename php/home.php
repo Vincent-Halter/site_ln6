@@ -23,10 +23,8 @@
                     $id = $result[$i]['idUser'];
                     $name = $result[$i]['Name'];
                     $firstname = $result[$i]['FirstName'];
-                    $description = $result[$i]['Description'];
                     $tag = $result[$i]['Tag'];
                     $categories = $result[$i]['Categories'];
-                    $email = $result[$i]['Email'];
                     $profilimage = $result[$i]['ProfilPick'];
                     ?>
                     <div class="col-md-4">

@@ -13,6 +13,12 @@ if(isset($_GET['id'])){
     $facebook = $rqt[0]['Link_Github'];
     $instagram = $rqt[0]['Link_Linkedin'];
     $profilimage = $rqt[0]['ProfilPick'];
+    $projet_1 = $rqt[0]['Projet_1'];
+    $image_projet_1 = $rqt[0]['Photo_Projet_1'];
+    $projet_2 = $rqt[0]['Projet_2'];
+    $image_projet_2 = $rqt[0]['Photo_Projet_2'];
+    $projet_3 = $rqt[0]['Projet_3'];
+    $image_projet_3 = $rqt[0]['Photo_Projet_3'];
 
     if( !isset($rqt[0]['Background']) ) {
         $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80';

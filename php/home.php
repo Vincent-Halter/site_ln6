@@ -1,19 +1,74 @@
 <?php
-    $result = db_select("SELECT * FROM user");
+    $result = "";
 ?>
 
+    <script>
+    
+    
+        function btn_crea(){
+            $.ajax({
+                type : 'POST',
+                url : 'php/script/functions.php',
+                data : {'action' : 'crea'},
+                success : function(data){
+                    console.log(data);
+                    if(data == 'true'){
+                       <?php $result = db_select("SELECT * FROM user WHERE Categories = 'Créa'"); ?>
+                    }else{
+                        <?php db_select("SELECT * FROM user"); ?>
+                    }
+                }
+            })
+        }
+    
+        function btn_tech(){
+            $.ajax({
+                type : 'POST',
+                url : 'php/script/functions.php',
+                data : {'action' : 'tech'},
+                success : function(data){
+                    console.log(data);
+                    if(data == 'true'){
+                       <?php $result = db_select("SELECT * FROM user WHERE Categories = 'Tech'"); ?>
+                    }else{
+                        <?php db_select("SELECT * FROM user"); ?>
+                    }
+                }
+            })
+        }
+    
+        function btn_all(){
+            $.ajax({
+                type : 'POST',
+                url : 'php/script/functions.php',
+                data : {'action' : 'all'},
+                success : function(data){
+                    console.log(data);
+                    if(data == 'true'){
+                       <?php $result = db_select("SELECT * FROM user"); ?>
+                    }else{
+                        <?php db_select("SELECT * FROM user"); ?>
+                    }
+                }
+            })
+        }
+    
+    
+    
+    </script>
 <main>
     <div class="container-lg" style="margin-top:100px">
         <div class="text-center">
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">
-            <h4>Accroche ou Slogan de la promotion</h4><br></br>
+            <h4>Accroche ou Slogan de la promotion</h4><br>
 
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="100%" height="1080" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
             </div>
 
-            <h4 id="promotion20-21">Promotion n°6 <br> 2020/2021</h4><br></br>
+            <h4 id="promotion20-21">Promotion n°6 <br> 2020/2021</h4><br>
             <div class="d-grid gap-2 d-md-block" style="margin-bottom:25px;">
+                <button Onclick="btn_all()" id ="All" class="btn btn-primary btn-lg" type="button">Tous</button>
                 <button Onclick="btn_crea()" id ="Crea" class="btn btn-primary btn-lg" type="button">Créa</button>
                 <button Onclick="btn_tech()" id="Tech" class="btn btn-primary btn-lg" type="button">Tech</button>
             </div>
@@ -138,22 +193,6 @@
                 </div>
             </div>
         </div>
-        <script>
-
-
-            function btn_crea(){
-                $('.card[data-type="Tech"]').toggleClass('is-hidden');
-                $('.button').toggleClass('active');
-            }
-
-            function btn_tech(){
-                $('.card[data-type="Créa"]').toggleClass('is-hidden');
-                $('.button').toggleClass('active');
-            }
-
-
-
-        </script>
         
         
 </main>

@@ -1,61 +1,24 @@
+<script>
+
+
+    function btn_crea(){
+    }
+
+    function btn_tech(){
+    }
+
+    function btn_all(){
+    }
+
+
+
+</script>
+
+
 <?php
-    $result = "";
+    $result = db_select("SELECT * FROM user");
 ?>
 
-    <script>
-    
-    
-        function btn_crea(){
-            $.ajax({
-                type : 'POST',
-                url : 'php/script/functions.php',
-                data : {'action' : 'crea'},
-                success : function(data){
-                    console.log(data);
-                    if(data == 'true'){
-                       <?php $result = db_select("SELECT * FROM user WHERE Categories = 'Créa'"); ?>
-                    }else{
-                        <?php db_select("SELECT * FROM user"); ?>
-                    }
-                }
-            })
-        }
-    
-        function btn_tech(){
-            $.ajax({
-                type : 'POST',
-                url : 'php/script/functions.php',
-                data : {'action' : 'tech'},
-                success : function(data){
-                    console.log(data);
-                    if(data == 'true'){
-                       <?php $result = db_select("SELECT * FROM user WHERE Categories = 'Tech'"); ?>
-                    }else{
-                        <?php db_select("SELECT * FROM user"); ?>
-                    }
-                }
-            })
-        }
-    
-        function btn_all(){
-            $.ajax({
-                type : 'POST',
-                url : 'php/script/functions.php',
-                data : {'action' : 'all'},
-                success : function(data){
-                    console.log(data);
-                    if(data == 'true'){
-                       <?php $result = db_select("SELECT * FROM user"); ?>
-                    }else{
-                        <?php db_select("SELECT * FROM user"); ?>
-                    }
-                }
-            })
-        }
-    
-    
-    
-    </script>
 <main>
     <div class="container-lg" style="margin-top:100px">
         <div class="text-center">

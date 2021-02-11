@@ -26,7 +26,7 @@ if(isset($_POST['action'])){
             }else{
                 $response = "false";
             }
-    
+
             echo $response;
             break;
         
@@ -44,7 +44,7 @@ if(isset($_POST['action'])){
             break;
         
 
-}
+    }
 }
 
 ?>

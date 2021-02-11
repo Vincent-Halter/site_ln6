@@ -11,7 +11,7 @@
 <header>
     <div class="fixed-top">
         <nav class="navbar navbar-light bg-light">
-            <div class="container-lg">
+            <div class="container-xxl">
 
 
                         <a href="/?page=home" class="navbar-brand">Portefolio Ligne Numérique 6</a>

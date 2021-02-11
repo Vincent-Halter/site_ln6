@@ -1,6 +1,6 @@
 <footer>
 <nav class="navbar navbar-light bg-light">
-    <div class="container-lg">
+    <div class="container-xxl">
         <a class="navbar-brand">Portefolio Ligne Numérique 6 - 2020/2021</a>
         <div class="d-flex">
             <a class="navbar-brand" href="#">Contact</a>             

@@ -23,7 +23,7 @@
     <div class="container-lg" style="margin-top:100px">
         <div class="text-center">
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">
-            <h4>Accroche ou Slogan de la promotion</h4><br>
+            <h4>“La force de LN6, on est uni'que.”</h4><br>
 
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="800" height="800" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
@@ -86,7 +86,7 @@
         <div class="text-center">
             <h4 id="apropos">À propos</h4>
             <h5>Qu'est-ce que la Ligne numérique ?</h5>
-            <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin pour les métiers du numérique à       Mulhouse. 
+            <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin pour les métiers du numérique à Mulhouse. 
             </p>
         </div>
             <div class="container-fluid text-center">

@@ -32,11 +32,11 @@ if(isset($_GET['id'])){
 
     $video = $rqt[0]['Video'];
 
-    if( $background == null ) {
-        $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80';
-    } else {
-        echo ];
-    }
+    // if( $background == null ) {
+    //     $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80';
+    // } else {
+    //     echo ];
+    // }
 ?>
 <style>
     body {

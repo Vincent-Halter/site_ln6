@@ -76,6 +76,22 @@ p.card-text {
 }
 
 .container-fluid{
-		margin-top: 3rem;
+		margin-top: 2rem;
 		background-color: #5C96B6;
+		padding-top: 12px;
+}
+
+.text-center{
+	padding-top: 100px;
+}
+
+
+#apropos{
+	background: rgba(252, 117, 108, 0.7);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.container-lg{
+	background-color: rgb(224, 170, 132);
 }

@@ -63,17 +63,19 @@
             <h4>Accroche ou Slogan de la promotion</h4><br>
 
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="100%" height="1080" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
+                <iframe width="800" height="800" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
             </div>
-
-            <h4 id="promotion20-21">Promotion n°6 <br> 2020/2021</h4><br>
-            <div class="d-grid gap-2 d-md-block" style="margin-bottom:25px;">
-                <button Onclick="btn_all()" id ="All" class="btn btn-primary btn-lg" type="button">Tous</button>
-                <button Onclick="btn_crea()" id ="Crea" class="btn btn-primary btn-lg" type="button">Créa</button>
-                <button Onclick="btn_tech()" id="Tech" class="btn btn-primary btn-lg" type="button">Tech</button>
+            <div class="container-xl">
+                <h4 id="promotion20-21"><br>Promotion n°6 <br> 2020/2021</h4><br>
+                <div class="d-grid gap-2 d-md-block" style="margin-bottom:25px;">
+                    <button Onclick="btn_all()" id ="All" class="btn btn-primary btn-lg" type="button">Tous</button>
+                    <button Onclick="btn_crea()" id ="Crea" class="btn btn-primary btn-lg" type="button">Créa</button>
+                    <button Onclick="btn_tech()" id="Tech" class="btn btn-primary btn-lg" type="button">Tech</button>
+                </div>
+                <br>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <?php
                 for($i = 0 ; $i < count($result); $i++){
@@ -121,7 +123,8 @@
         <div class="text-center">
             <h4 id="apropos">À propos</h4>
             <h5>Qu'est-ce que la Ligne numérique ?</h5>
-            <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin des métiers du numérique à Mulhouse. Lorem Elsass ipsum Strasbourg risus, ullamcorper ornare schpeck kougelhopf hoplageiss geïz bissame vulputate tellus in.</p>
+            <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin pour les métiers du numérique à       Mulhouse. 
+            </p>
         </div>
             <div class="container-fluid text-center">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">

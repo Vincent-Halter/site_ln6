@@ -69,3 +69,13 @@ p.card-text {
 	padding: 0.5rem 2rem;
 	border-radius: 5.3rem;
 }
+
+.container-xl{
+	background: rgba(252, 117, 108, 0.7);
+
+}
+
+.container-fluid{
+		margin-top: 3rem;
+		background-color: #5C96B6;
+}

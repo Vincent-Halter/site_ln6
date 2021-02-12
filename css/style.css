@@ -72,12 +72,15 @@ p.card-text {
 
 .container-xl{
 	background: rgba(252, 117, 108, 0.7);
+	width: 616px;
+	height: 197px;
 
 }
 
 .container-fluid{
 		margin-top: 2rem;
 		background-color: #5C96B6;
+<<<<<<< Updated upstream
 		padding-top: 12px;
 }
 
@@ -95,3 +98,8 @@ p.card-text {
 .container-lg{
 	background-color: rgb(224, 170, 132);
 }
+=======
+		text-align: center;
+}
+
+>>>>>>> Stashed changes

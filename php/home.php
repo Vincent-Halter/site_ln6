@@ -26,7 +26,7 @@
             <h4>“La force de LN6, on est uni'que.”</h4><br>
 
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="800" height="800" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
+                <iframe width="800" height="600" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
             </div>
             <div class="container-xl">
                 <h4 id="promotion20-21"><br>Promotion n°6 <br> 2020/2021</h4><br>
@@ -83,8 +83,10 @@
                 ?>
             </div>
         </div>
-        <div class="text-center">
+        <div class="container-xl">
             <h4 id="apropos">À propos</h4>
+        </div>
+        <div class="text-center">
             <h5>Qu'est-ce que la Ligne numérique ?</h5>
             <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin pour les métiers du numérique à Mulhouse. 
             </p>

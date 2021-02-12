@@ -21,6 +21,7 @@
 ?>
 
 <main>
+
     <div class="container-lg" style="margin-top:100px">
         <div class="text-center">
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">

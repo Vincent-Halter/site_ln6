@@ -53,11 +53,7 @@ p.card-text {
 	padding: 0px;
 }
 
-.container-lg{
-	background-color: rgb(212, 152, 125);
-	padding:0%;
-	padding-bottom:30px;
-}
+
 
 .card.border-dark .col-md-6 {
 	padding-top: 10px;
@@ -91,7 +87,7 @@ p.card-text {
 }
 
 .container-xl{
-	background: rgba(252, 117, 108, 0.7);
+	background: rgba(255, 172, 108);
 	text-align: center;
 	margin-top: 3rem;
 
@@ -99,7 +95,7 @@ p.card-text {
 
 .container-fluid{
 		margin-top: 3rem;
-		background-color: #e67244;
+		background-color: rgb(108, 118, 255);
 		padding: 20px;
 }
 
@@ -107,6 +103,12 @@ p.card-text {
 	padding-top: 73px;
 }
 
-.text-center{
-	padding-top: 3rem;
+.text-center {
+    padding-top: 3rem;
+    font-size: 20px;
+	
+}
+
+.container-lg{
+	background-color: rgb(127, 161, 226);
 }

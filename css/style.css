@@ -30,6 +30,10 @@ p.card-text {
 	display: none !important;
 }
 
+.is-block {
+	display: block;
+}
+
 .link_profil {
 	position: absolute;
 	top: 0;
@@ -50,10 +54,14 @@ p.card-text {
 }
 
 .container {
-	padding: 0px;
+	padding: 1px;
 }
 
-
+.container-lg {
+	background-color: rgb(212, 152, 125);
+	padding: 0%;
+	padding-bottom: 30px;
+}
 
 .card.border-dark .col-md-6 {
 	padding-top: 10px;
@@ -73,42 +81,12 @@ p.card-text {
 	background-color: saddlebrown;
 }
 
-.container-xl{
+.container-xl {
 	background: rgba(252, 117, 108, 0.7);
-	width: 616px;
-	height: 197px;
-
 }
 
-.container-fluid{
-		margin-top: 2rem;
-		background-color: #5C96B6;
-		text-align: center;
-}
-
-.container-xl{
-	background: rgba(255, 172, 108);
-	text-align: center;
-	margin-top: 3rem;
-
-}
-
-.container-fluid{
-		margin-top: 3rem;
-		background-color: rgb(108, 118, 255);
-		padding: 20px;
-}
-
-#apropos{
-	padding-top: 73px;
-}
-
-.text-center {
-    padding-top: 3rem;
-    font-size: 20px;
-	
-}
-
-.container-lg{
-	background-color: rgb(127, 161, 226);
+.container-fluid {
+	margin-top: 2rem;
+	background-color: #5c96b6;
+	padding-top: 12px;
 }

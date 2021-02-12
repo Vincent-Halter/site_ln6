@@ -1,17 +1,18 @@
 <script>
-
-
     function btn_crea(){
+        $('.col-md-4[data-type="Tech"]').toggleClass('is-hidden'); 
+        $('.col-md-4[data-type="Créa"]').removeClass('is-hidden');
     }
-
+    
     function btn_tech(){
+        $('.col-md-4[data-type="Créa"]').toggleClass('is-hidden');
+        $('.col-md-4[data-type="Tech"]').removeClass('is-hidden'); 
     }
 
     function btn_all(){
+        $('.col-md-4[data-type="Créa"]').removeClass('is-hidden');
+        $('.col-md-4[data-type="Tech"]').removeClass('is-hidden');
     }
-
-
-
 </script>
 
 
@@ -50,8 +51,8 @@
                     $categories = $result[$i]['Categories'];
                     $profilimage = $result[$i]['ProfilPick'];
                     ?>
-                    <div class="col-md-4">
-                        <div class="card" style="margin-bottom:16px;" data-type="<?=$categories?>">
+                    <div class="col-md-4" data-type="<?=$categories?>">
+                        <div class="card" style="margin-bottom:16px;">
                             <div class="card-block">
                                 <div class="card-body">
                                     <a href="/?page=profil&id=<?=$id?>">

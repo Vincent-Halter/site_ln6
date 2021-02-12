@@ -13,7 +13,7 @@
         <nav class="navbar navbar-light bg-light">
             <div class="container-xxl">
 
-
+                
                         <a href="/?page=home" class="navbar-brand">Portefolio Ligne Numérique 6</a>
                         <div class="d-flex">
                             <a class="navbar-brand" href="#promotion20-21">Promotion 2020/2021</a>

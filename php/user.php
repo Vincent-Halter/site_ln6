@@ -110,7 +110,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-            <?php if($id == '1' || $id == '15' || $id == '6' || $id == '17' || $id == '22'){
+            <?php if($id == '1' || $id == '15' || $id == '6' || $id == '17' || $id == '22' || $id == '26'){
                 echo "<iframe width='635' height='300' src='https://www.youtube.com/embed/$image_projet_1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
             }else if($id == '16' || $id == '24' || $id == '15' || $id == '23' || $id == '7' || $id == '5' || $id == '3' || $id == '2' || $id == '14' || $id == '13' || $id == '25'){
                 echo "<img class='img_projet' src='img/profil/projets/$image_projet_1' alt='...' style='width:635px;height:300px'>";
@@ -128,7 +128,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '25'){
+            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '25' || $id == '26'){
                 echo "<iframe width='635' height='300' src='https://www.youtube.com/embed/$image_projet_2' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
             }else if($id == '16' || $id == '24' || $id == '15' || $id == '23' || $id == '7' || $id == '5' || $id == '3' || $id == '14' || $id == '13' || $id == '22' ){
                 echo "<img class='img_projet' src='img/profil/projets/$image_projet_2' alt='...' style='width:635px;height:300px'>";
@@ -146,7 +146,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '3' || $id == '15' || $id == '22' || $id == '25'){
+            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '3' || $id == '15' || $id == '22' || $id == '25' || $id == '26'){
                 echo "<iframe width='635' height='300' src='https://www.youtube.com/embed/$image_projet_3' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
             }else if($id == '16' || $id == '24' ||  $id == '23' || $id == '7' || $id == '5' || $id == '14' || $id == '13'){
                 echo "<img class='img_projet' src='img/profil/projets/$image_projet_3' alt='...' style='width:635px;height:300px'></a>";

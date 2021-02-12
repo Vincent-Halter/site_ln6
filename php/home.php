@@ -99,7 +99,6 @@
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
-                        <li data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></li>
                     </ol>
                     <div class="carousel-inner" style="padding:40px;">
                         <div class="carousel-item active" data-bs-interval="10000">

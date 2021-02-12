@@ -74,6 +74,10 @@ p.card-text {
 	color: white;
 }
 
+.card-text{
+	color:black;
+}
+
 .btn-group-lg > .btn,
 .btn-lg {
 	padding: 0.5rem 2rem;

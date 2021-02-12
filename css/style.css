@@ -57,6 +57,12 @@ p.card-text {
 	padding: 1px;
 }
 
+.container-lg {
+	background-color: rgb(212, 152, 125);
+	padding: 0%;
+	padding-bottom: 30px;
+}
+
 .card.border-dark .col-md-6 {
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -72,6 +78,7 @@ p.card-text {
 .btn-lg {
 	padding: 0.5rem 2rem;
 	border-radius: 5.3rem;
+	background-color: saddlebrown;
 }
 
 .container-xl {

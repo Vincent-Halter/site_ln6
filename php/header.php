@@ -11,14 +11,14 @@
 <header>
     <div class="fixed-top">
         <nav class="navbar navbar-light bg-light">
-            <div class="container-lg">
+            <div class="container-xxl">
 
                 
                         <a href="/?page=home" class="navbar-brand">Portefolio Ligne Numérique 6</a>
                         <div class="d-flex">
                             <a class="navbar-brand" href="#promotion20-21">Promotion 2020/2021</a>
-                            <a class="navbar-brand" href="#apropos">A Propos</a>             
-                        </div>
+                            <a class="navbar-brand" href="#apropos">À Propos</a>             
+                        </div>             
 
 
                         <!-- <a href="/?page=home"><i class="fas fa-arrow-left"></i></a>    -->

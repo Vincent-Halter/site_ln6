@@ -58,7 +58,7 @@ p.card-text {
 }
 
 .container-lg {
-	background-color: rgb(212, 152, 125);
+	background-color:#393939;
 	padding: 0%;
 	padding-bottom: 30px;
 }
@@ -78,15 +78,30 @@ p.card-text {
 .btn-lg {
 	padding: 0.5rem 2rem;
 	border-radius: 5.3rem;
-	background-color: saddlebrown;
+	background-color: #e9e9d5;
+	color: rgb(2, 2, 2);
 }
 
 .container-xl {
-	background: rgba(252, 117, 108, 0.7);
+	background: #f8f6f6;
+	color: #000000;
+	width: 517px;
+	height: 187px;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .container-fluid {
 	margin-top: 2rem;
-	background-color: #5c96b6;
+	background-color: #dde9c3;
 	padding-top: 12px;
+}
+
+.embed-responsive-item{
+	padding-bottom: 30px;
+}
+
+.text-center{
+	color: white;
 }

@@ -18,7 +18,7 @@
 
 <?php
     $result = db_select("SELECT * FROM user");
-?>
+    ?>
 
 <main>
 
@@ -26,10 +26,12 @@
         <div class="text-center">
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">
             <h4>“La force de LN6, on est uni'que.”</h4><br>
-
+            
             <div class="embed-responsive embed-responsive-16by9">
                 <iframe width="800" height="600" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
             </div>
+        </div>
+        <div class="container-fluid">
             <div class="container-xl">
                 <h4 id="promotion20-21"><br>Promotion n°6 <br> 2020/2021</h4><br>
                 <div class="d-grid gap-2 d-md-block" style="margin-bottom:25px;">
@@ -39,8 +41,6 @@
                 </div>
                 <br>
             </div>
-        </div>
-        <div class="container-fluid">
             <div class="row">
                 <?php
                 for($i = 0 ; $i < count($result); $i++){
@@ -57,18 +57,18 @@
                                 <div class="card-body">
                                     <a href="/?page=profil&id=<?=$id?>">
                                     <span class="link_profil"></span>
-                                    </a>
-                                    <div class="row">
-                                        <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:150px;height:130px;margin-right:24px;border-radius:90%">
-                                        <div class="col-6">
-                                            <h5 class="card-title"><?=$name?></h5>
-                                            <h5 class="card-text"><?=$firstname?></h5>
-                                            <p class="card-text"><?=$tag?></p>
-                                        </div>
-                                        <div class="position-relative">
-                                            <div class="col-3">
-                                                <div class="position-absolute bottom-0 end-0">
-                                                    <a href="/?page=profil&id=<?=$id?>"><i class="fas fa-arrow-right" style="padding:5px;"></i></a>
+                                </a>
+                                <div class="row">
+                                    <img class="pp" src="img/profil/<?=$profilimage?>" alt="pp_user" style="width:150px;height:130px;margin-right:24px;border-radius:90%">
+                                    <div class="col-6">
+                                        <h5 class="card-title"><?=$name?></h5>
+                                        <h5 class="card-text"><?=$firstname?></h5>
+                                        <p class="card-text"><?=$tag?></p>
+                                    </div>
+                                    <div class="position-relative">
+                                        <div class="col-3">
+                                            <div class="position-absolute bottom-0 end-0">
+                                                <a href="/?page=profil&id=<?=$id?>"><i class="fas fa-arrow-right" style="padding:5px;"></i></a>
                                                 </div>
                                                 <div class="position-absolute bottom-0 start-0">
                                                     <p class="section"><?=$categories?></p>
@@ -85,16 +85,16 @@
                 ?>
             </div>
         </div>
-        <div class="container-xl">
+        <div class="container-xl" style="height:100px;width:250px; padding-top:30px">
             <h4 id="apropos">À propos</h4>
         </div>
         <div class="text-center">
             <h5>Qu'est-ce que la Ligne numérique ?</h5>
-            <p style="width:621px;margin:auto;">La Ligne Numérique, c’est la formation tremplin pour les métiers du numérique à Mulhouse. 
+            <p style="width:621px;margin:auto;font-size:20px">La Ligne Numérique est une école « des talents cachés », proposée par e-nov Campus, à Mulhouse. Elle est entièrement gratuite et s’adresse à des personnes de 18 à 25 ans, autodidactes du numérique, sortis prématurément du système éducatif et disposant d'un réel potentiel dans les technologies du numérique en raison de leur parcours, de leurs expériences ou de leur motivation.
             </p>
         </div>
-            <div class="container-fluid text-center">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="container-fluid text-center">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"></li>
                         <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>

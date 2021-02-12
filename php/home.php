@@ -26,9 +26,11 @@
         <div class="text-center">
             <img class="logo_Ln6" src="img/loup_avec_des_contoure.png" alt="logo_ln6" style="width:143px;height:143px;">
             <h4>“La force de LN6, on est uni'que.”</h4><br>
-            
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="800" height="600" class="embed-responsive-item" src="https://www.youtube.com/embed/COb6AqmggRU" allowfullscreen></iframe>
+                <iframe width="800" height="600" class="embed-responsive-item" src="https://youtube.com/embed/0cC1GM2tonY" allowfullscreen></iframe>
+            </div>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="800" height="600" class="embed-responsive-item" src="https://youtube.com/embed/LKkcbaJldME" allowfullscreen></iframe>
             </div>
         </div>
         <div class="container-fluid">

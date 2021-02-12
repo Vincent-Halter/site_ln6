@@ -3,7 +3,7 @@
     <div class="container-xxl">
         <a class="navbar-brand">Portefolio Ligne Numérique 6 - 2020/2021</a>
         <div class="d-flex">
-            <a class="navbar-brand" href="#">Contact</a>             
+            <a class="navbar-brand" href="https://www.enovcampus.eu/contact/">Contact</a>             
         </div>
     </div>
 </nav>

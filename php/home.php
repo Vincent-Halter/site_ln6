@@ -118,15 +118,9 @@
                         <div class="carousel-item" data-bs-interval="10000">
                             <div class="row">
                                 <img src="img/caroussel/_MG_8516.jpg" class="d-block" style="width:23%;height:23%" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture.png" class="d-block" style="width:37%;height:37%" alt="photos_carroussel">
+                                <img src="img/caroussel/Capture.png" class="d-block" style="width:30%;height:40%" alt="photos_carroussel">
                                 <img src="img/caroussel/rayanne.png" class="d-block" style="width:20.5%;height:20.5%" alt="photos_carroussel">
-                            </div>
-                        </div>
-                        <div class="carousel-item" data-bs-interval="10000">
-                            <div class="row">
-                            <img src="img/caroussel/rayanne2.jpg" class="d-block" style="width:23%;height:23%" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-2.png" class="d-block" style="width:35%;height:35%" alt="photos_carroussel">
-                                <img src="img/caroussel/Capture-3.png" class="d-block" style="width:33%;height:33%" alt="photos_carroussel">
+                                <img src="img/caroussel/rayanne2.jpg" class="d-block" style="width:23%;height:23%" alt="photos_carroussel">
                             </div>
                         </div>
                     </div>
@@ -148,7 +142,7 @@
 
 
             <div class="text-center">
-            <button class="btn btn-primary" type="button" style="margin-bottom:5em;margin-top:5em">Découvrir la Formation</button>
+            <a href="https://www.enovcampus.eu/ligne-numerique/" class="btn btn-primary" type="button" style="margin-bottom:5em;margin-top:5em">Découvrir la Formation</a>
             <h4>Nos Partenaires</h4>
             <div class="container" style="margin-bottom:5em;">
                 <div class="row">
@@ -156,7 +150,7 @@
                         <img class="partenaires" src="img/enov-campus.png" alt="" style="width:10%;margin:15px">
                         <img class="partenaires" src="img/Drapeau_UE.png" alt="" style="width:10%;margin:15px">
                         <img class="partenaires" src="img/Grand_Est_Logo.png" alt="" style="width:10%;margin:15px">
-                        <img class="partenaires" src="img/Logo_officiel_de_Mulhouse_Alsace_Agglomération.png" alt="" style="width:10%;margin:15px">
+                        <img class="partenaires" src="img/Logo_officiel_de_Mulhouse_Alsace_Agglomeration.png" alt="" style="width:10%;margin:15px">
                         <img class="partenaires" src="img/logo-cci-alsace.png" alt="" style="width:10%;margin:15px">
                     </div>
                 </div>

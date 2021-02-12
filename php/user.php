@@ -10,8 +10,8 @@ if(isset($_GET['id'])){
     $tag = $rqt[0]['Tag'];
     $categories = $rqt[0]['Categories'];
     $email = $rqt[0]['Email'];
-    $facebook = $rqt[0]['Link_Github'];
-    $instagram = $rqt[0]['Link_Linkedin'];
+    $git_behance = $rqt[0]['Link_Github'];
+    $linkedin = $rqt[0]['Link_Linkedin'];
     $profilimage = $rqt[0]['ProfilPick'];
     $background = $rqt[0]['Background'];
 
@@ -33,19 +33,35 @@ if(isset($_GET['id'])){
     $video = $rqt[0]['Video'];
 
     if( $background == null ) {
-        $background = 'https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80';
-    } else {
-        echo ];
-    }
-?>
+    ?>
 <style>
-    body {
-        background: url('<?= $background?>');
-        background-position: top center;
+    main{
+        background-image: url('https://images.unsplash.com/photo-1612864800594-22b1b1c44de8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1312&q=80');
         background-size: cover;
+        z-index : 1000000;
+        color : black;
+        font-size : 16px;
     }
 
 </style>
+    <?php
+    } else {
+?>
+<style>
+    main{
+        background-image: url('img/profil/background/<?=$background?>');
+        background-size: cover;
+        z-index : 1000000;
+        color : black;
+        -webkit-text-stroke-width: 0.2px;
+        -webkit-text-stroke-color: black;
+        font-size : 16px;
+    }
+
+</style>
+<?php
+    }
+?>
 <div class="container">
     <div class="container-sm">
         <div class="row">
@@ -59,11 +75,11 @@ if(isset($_GET['id'])){
             <div class="col-2">
             <?php
                 if($categories == 'Tech'){
-                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-light btn-lg github' type='button'><i class='fab fa-github'></i> GitHub</a>";
-                    echo "<a href='https://www.instagram.com/$instagram' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
+                    echo "<a href=' https://github.com/$git_behance' class='btn btn-light btn-lg github' type='button'><i class='fab fa-github'></i> GitHub</a>";
+                    echo "<a href='https://www.linkedin.com/in/$linkedin' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
                 }else{
-                    echo "<a href='https://www.facebook.com/$facebook' class='btn btn-primary btn-lg' type='button' style='margin-bottom:10px;'><i class='fab fa-behance'></i> Behance</a>";
-                    echo "<a href='https://www.instagram.com/$instagram' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
+                    echo "<a href='https://www.behance.net/$git_behance' class='btn btn-primary btn-lg' type='button' style='margin-bottom:10px;'><i class='fab fa-behance'></i> Behance</a>";
+                    echo "<a href='https://www.linkedin.com/in/$linkedin' class='btn btn-primary btn-lg' type='button'><i class='fab fa-linkedin'></i> Linkedin</a>";
                 }
                 ?>
             </div>
@@ -87,9 +103,8 @@ if(isset($_GET['id'])){
         }
         ?>
     </div>
-    </div>
-<div class="container text-center">
-    <h3>
+    <div class="text-center">
+    <h3 style="color:white;">
         Mes Projets
     </h3>
     <div class="card border-dark">
@@ -97,7 +112,7 @@ if(isset($_GET['id'])){
             <div class="col-md-6">
             <?php if($id == '1' || $id == '15' || $id == '6' || $id == '17' || $id == '22'){
                 echo "<iframe width='635' height='300' src='https://www.youtube.com/embed/$image_projet_1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
-            }else if($id == '16' || $id == '24' || $id == '15' || $id == '23' || $id == '7' || $id == '5' || $id == '3' || $id == '2' || $id == '14' || $id == '13'){
+            }else if($id == '16' || $id == '24' || $id == '15' || $id == '23' || $id == '7' || $id == '5' || $id == '3' || $id == '2' || $id == '14' || $id == '13' || $id == '25'){
                 echo "<img class='img_projet' src='img/profil/projets/$image_projet_1' alt='...' style='width:635px;height:300px'>";
             }
             ?>
@@ -113,7 +128,7 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2'){
+            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '25'){
                 echo "<iframe width='635' height='300' src='https://www.youtube.com/embed/$image_projet_2' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
             }else if($id == '16' || $id == '24' || $id == '15' || $id == '23' || $id == '7' || $id == '5' || $id == '3' || $id == '14' || $id == '13' || $id == '22' ){
                 echo "<img class='img_projet' src='img/profil/projets/$image_projet_2' alt='...' style='width:635px;height:300px'>";
@@ -123,7 +138,7 @@ if(isset($_GET['id'])){
             <div class="col-md-6">
                 <div class="card-body">
                 <h4 class="card-text"><?=$projet_2_title?></h4>
-                    <p class="card-text"><?=$projet_2?></p>
+                    <p class="card-text"><?=$projet_2?> <?=$link_projet_2?></p>
                 </div>
             </div>
         </div>
@@ -131,17 +146,17 @@ if(isset($_GET['id'])){
     <div class="card border-dark">
         <div class="row g-0">
             <div class="col-md-6">
-            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '3' ){
+            <?php if($id == '1' || $id == '6' || $id == '17' || $id == '2' || $id == '3' || $id == '15' || $id == '22' || $id == '25'){
                 echo "<iframe width='635' height='300' src='https://www.youtube.com/embed/$image_projet_3' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
-            }else if($id == '16' || $id == '24' || $id == '15' || $id == '23' || $id == '7' || $id == '5' || $id == '14' || $id == '13' || $id == '22'){
-                echo "<a href='$link_projet_1'><img class='img_projet' src='img/profil/projets/$image_projet_3' alt='...' style='width:635px;height:300px'></a>";
+            }else if($id == '16' || $id == '24' ||  $id == '23' || $id == '7' || $id == '5' || $id == '14' || $id == '13'){
+                echo "<img class='img_projet' src='img/profil/projets/$image_projet_3' alt='...' style='width:635px;height:300px'></a>";
             }
             ?>
             </div>
             <div class="col-md-6">
                 <div class="card-body">
                 <h4 class="card-text"><?=$projet_3_title?></h4>
-                    <p class="card-text"><?=$projet_3?></p>
+                    <p class="card-text"><?=$projet_3?> <?=$link_projet_3?></p>
                 </div>
             </div>
         </div>
@@ -149,6 +164,7 @@ if(isset($_GET['id'])){
 <?php
     }
     ?>
+</div>
 
 
 

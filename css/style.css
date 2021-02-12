@@ -30,6 +30,10 @@ p.card-text {
 	display: none !important;
 }
 
+.is-block {
+	display: block;
+}
+
 .link_profil {
 	position: absolute;
 	top: 0;
@@ -50,7 +54,7 @@ p.card-text {
 }
 
 .container {
-	padding: 0px;
+	padding: 1px;
 }
 
 .card.border-dark .col-md-6 {
@@ -70,12 +74,12 @@ p.card-text {
 	border-radius: 5.3rem;
 }
 
-.container-xl{
+.container-xl {
 	background: rgba(252, 117, 108, 0.7);
-
 }
 
-.container-fluid{
-		margin-top: 3rem;
-		background-color: #5C96B6;
+.container-fluid {
+	margin-top: 2rem;
+	background-color: #5c96b6;
+	padding-top: 12px;
 }

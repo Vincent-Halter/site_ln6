@@ -53,6 +53,12 @@ p.card-text {
 	padding: 0px;
 }
 
+.container-lg{
+	background-color: rgb(212, 152, 125);
+	padding:0%;
+	padding-bottom:30px;
+}
+
 .card.border-dark .col-md-6 {
 	padding-top: 10px;
 	padding-bottom: 5px;
@@ -68,6 +74,7 @@ p.card-text {
 .btn-lg {
 	padding: 0.5rem 2rem;
 	border-radius: 5.3rem;
+	background-color: saddlebrown;
 }
 
 .container-xl{
@@ -80,26 +87,26 @@ p.card-text {
 .container-fluid{
 		margin-top: 2rem;
 		background-color: #5C96B6;
-<<<<<<< Updated upstream
-		padding-top: 12px;
-}
-
-.text-center{
-	padding-top: 100px;
-}
-
-
-#apropos{
-	background: rgba(252, 117, 108, 0.7);
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.container-lg{
-	background-color: rgb(224, 170, 132);
-}
-=======
 		text-align: center;
 }
 
->>>>>>> Stashed changes
+.container-xl{
+	background: rgba(252, 117, 108, 0.7);
+	text-align: center;
+	margin-top: 3rem;
+
+}
+
+.container-fluid{
+		margin-top: 3rem;
+		background-color: #e67244;
+		padding: 20px;
+}
+
+#apropos{
+	padding-top: 73px;
+}
+
+.text-center{
+	padding-top: 3rem;
+}
